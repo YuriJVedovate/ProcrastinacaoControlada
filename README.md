@@ -3,13 +3,13 @@
 ##  Tópicos 
 
 <p align="center">
- <a href="#-Introdução">Introdução</a> •
- <a href="#-Funcionalidades">Funcionalidades</a> •
- <a href="#-Como usar">Como usar</a> • 
- <a href="#-Tecnologias utilizadas">Tecnologias utilizadas</a> • 
- <a href="#-Contribuição">Contribuição</a> • 
- <a href="#-Licença">Licença</a> • 
- <a href="#-Objetivo">Objetivo</a> 
+ <a href="#Introdução">Introdução</a> •
+ <a href="#Funcionalidades">Funcionalidades</a> •
+ <a href="#Como usar">Como usar</a> • 
+ <a href="#Tecnologias utilizadas">Tecnologias utilizadas</a> • 
+ <a href="#Contribuição">Contribuição</a> • 
+ <a href="#Licença">Licença</a> • 
+ <a href="#Objetivo">Objetivo</a> 
 </p>
 
 ## Introdução
