@@ -5,8 +5,8 @@
 <p align="center">
  <a href="#Introdução">Introdução</a> •
  <a href="#Funcionalidades">Funcionalidades</a> •
- <a href="#Como">Como usar</a> • 
- <a href="#Tecnologias">Tecnologias utilizadas</a> • 
+ <a href="#como-usar">Como usar</a> • 
+ <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a> • 
  <a href="#Contribuição">Contribuição</a> • 
  <a href="#Licença">Licença</a> • 
  <a href="#Objetivo">Objetivo</a> 
