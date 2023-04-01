@@ -1,18 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-import { TaskList }          from '../../model/task-list';
+import { Component, DoCheck } from '@angular/core';
+import { TaskList }           from '../../model/task-list';
 
 @Component({
   selector   : 'app-todo-list',
   templateUrl: './todo-list.component.html',
   styleUrls  : ['./todo-list.component.scss']
 })
-export class TodoListComponent implements OnInit {
+export class TodoListComponent implements DoCheck {
 
   public taskList: TaskList[] = [];
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngDoCheck(): void {
+    this.taskList.sort((first, last) => Number(first.checked) - Number(last.checked));
+
   }
 
   public setEmmitTaskList(task: string) {
@@ -23,14 +25,18 @@ export class TodoListComponent implements OnInit {
   }
 
   public deleteItemTaskList(itemId: number) {
-    if (this.confirmDelete()) {
       this.taskList.splice(itemId, 1)
-    }
   }
 
   public deleteAllTaskList() {
     if (this.confirmDelete()) {
       this.taskList = []
+    }
+  }
+
+  public validateTaskInput(task: TaskList, index : number) {
+    if (!task.task &&  this.confirmDelete()) {
+      this.deleteItemTaskList(index);
     }
   }
 
