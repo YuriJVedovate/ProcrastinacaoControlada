@@ -1,4 +1,4 @@
-@import '../../../../../dist/scss/variables.scss';
+@import '../../../../../assets/scss/variables.scss';
 
 section {
     width: 100%;
@@ -10,7 +10,7 @@ section {
     margin-top: 20px;
 
     &.loading {
-        background-image: url("../../../../../assets/img/bg-task.png");
+        background-image: url("../../../../../assets/img/bg-not-found-task.png");
         background-repeat: no-repeat;
         background-position: center 30px;
     }
