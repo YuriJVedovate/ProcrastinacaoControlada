@@ -25,20 +25,20 @@ O Procrastinação Controlada possui as seguintes funcionalidades:
 - Visualizar o histórico de tarefas concluídas
 
 ## Como usar
-Para usar o Procrastinação Controlada, acesse o site  e siga os seguintes passos:
+Para usar o Procrastinação Controlada, acesse o link https://yurijvedovate.github.io/ProcrastinacaoControlada/ e siga os seguintes passos:
 
 - Abra o site e crie uma conta
 - Crie uma nova lista de tarefas clicando no botão "+" na tela principal
 - Adicione as tarefas que deseja realizar na lista
 - Defina prazos para cada uma das tarefas, se necessário
+- Defina importancia e dificuldade para a atividade, se necessário
 - Marque as tarefas como concluídas quando finalizá-las
 - Visualize o histórico de tarefas concluídas na seção "Concluídas"
 
 ## Tecnologias utilizadas
 O Procrastinação Controlada foi desenvolvido utilizando as seguintes tecnologias:
 
-- Angular: para o desenvolvimento do aplicativo mobile
-- Firebase: para o armazenamento e autenticação de usuários, armazenamento de informações das atividades
+- Angular: para o desenvolvimento do site
 
 ## Contribuição
 Se você quiser contribuir para o desenvolvimento do Procrastinação Controlada, fique à vontade para fazer um fork do repositório e enviar um pull request com as suas alterações. Será um prazer receber a sua colaboração!
