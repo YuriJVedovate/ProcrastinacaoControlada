@@ -8,6 +8,11 @@ import { TodoListComponent }            from './components/todo-list/todo-list.c
 
 import { HomeComponent } from './pages/home/home.component';
 import { FormsModule }   from '@angular/forms';
+import { TaskListComponent } from './pages/task-list/task-list.component';
+import { TaskLaneComponent } from './components/task-lane/task-lane.component';
+import { TaskCardComponent } from './components/task-card/task-card.component';
+import { DateBoxComponent } from './components/date-box/date-box.component';
+import { TaskDifficultyComponent } from './components/task-difficulty/task-difficulty.component';
 
 
 
@@ -17,7 +22,12 @@ import { FormsModule }   from '@angular/forms';
     TodoButtonDeleteAllComponent,
     TodoInputAddItensComponent,
     TodoListComponent,
-    HomeComponent
+    HomeComponent,
+    TaskListComponent,
+    TaskLaneComponent,
+    TaskCardComponent,
+    DateBoxComponent,
+    TaskDifficultyComponent
   ],
   imports: [
     CommonModule,

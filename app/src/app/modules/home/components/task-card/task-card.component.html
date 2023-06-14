@@ -1,0 +1,12 @@
+<main>
+    <header>
+        <h3>{{task.taskTitle}}</h3>
+    </header>
+    <section class="taskDetail">
+        <div class="taskInfo">
+            <app-date-box *ngIf="task.dueDate" [dueDate]="task.dueDate" [importance]="task.importance"></app-date-box>
+            <app-task-difficulty *ngIf="task.difficulty" [difficulty]="task.difficulty" [importance]="task.importance"></app-task-difficulty>
+        </div>
+        <span *ngIf="task.category" class="taskCategory">{{task.category}}</span>
+    </section>
+</main>

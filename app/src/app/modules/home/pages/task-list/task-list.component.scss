@@ -1,0 +1,12 @@
+.tasksLanes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 24px;
+
+    .taskLane{
+        width: 560.5px;
+    }
+}
+

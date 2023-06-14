@@ -1,12 +1,16 @@
-import { NgModule } from '@angular/core';
+import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './modules/home/pages/home/home.component';
+import { HomeComponent }     from './modules/home/pages/home/home.component';
+import { TaskListComponent } from './modules/home/pages/task-list/task-list.component';
 
 const routes: Routes = [
   {
-    path : "", component: HomeComponent
-  }
+    path: "tasks", component: HomeComponent
+  },
+  {
+    path: "", component: TaskListComponent
+  },
 ];
 
 @NgModule({

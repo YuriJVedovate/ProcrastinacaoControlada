@@ -1,0 +1,8 @@
+<main class="container tasksLanes">
+    <app-task-lane class="taskLane" icon="./assets/icons/todo-task-icon.svg" title="To Do"
+        [taskList]="filterItens(1)"></app-task-lane>
+    <app-task-lane class="taskLane" icon="./assets/icons/progress-task-icon.svg" title="In Progress"
+        [taskList]="filterItens(2)"></app-task-lane>
+    <app-task-lane class="taskLane" icon="./assets/icons/done-task-icon.svg" title="Done"
+        [taskList]="filterItens(3)"></app-task-lane>
+</main>

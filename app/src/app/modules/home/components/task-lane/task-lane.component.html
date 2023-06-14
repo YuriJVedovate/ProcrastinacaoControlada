@@ -1,0 +1,10 @@
+<main>
+    <header>
+        <img [src]="icon" alt="icon">
+        <h1>{{title}}</h1>
+    </header>
+    <section *ngFor="let task of taskList">
+        <app-task-card class="taskCard" [task]="task"></app-task-card>
+    </section>
+</main>
+
